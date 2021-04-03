@@ -54,10 +54,10 @@ function handleCanvasClick() {
 function handleModeCkick() {
 	if (filling === true) {
 		filling = false;
-		jsMode.innerText = 'Paint area';
+		jsMode.innerText = 'Paint';
 	} else {
 		filling = true;
-		jsMode.innerText = 'Fill area';
+		jsMode.innerText = 'Fill';
 	}
 }
 function handleContextMenuClick(event) {
