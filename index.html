@@ -5,13 +5,28 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Paint</title>
+	<title>Paint JS</title>
 	<link rel="stylesheet" href="source/scss/style.css">
 </head>
 
 <body>
-
-
+	<canvas id="jsCanvas" class="canvas"></canvas>
+	<h1>
+		<Title></Title>
+	</h1>
+	<div class="controls" id="jsColors">
+		<div class="controls-range">
+			<input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1">
+		</div>
+		<div class="controls-buttons">
+			<button id="jsMode">Paint area</button>
+			<button id="jsSave">Save</button>
+			<button id="jsClean">Clean canvas</button>
+		</div>
+		<div class="controls-colors">
+			<input type="color" class=" control-color jsColor">
+		</div>
+	</div>
 	<script src="js/main.js"></script>
 </body>
 
